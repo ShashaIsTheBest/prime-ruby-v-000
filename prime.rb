@@ -3,7 +3,7 @@ def prime?(number)# Add  code here!
     return false
   else
     number.all? do |number|
-      number % !number = 1  
+      number % !number == 1  
     return true
   end
 end
