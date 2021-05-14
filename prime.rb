@@ -1,9 +1,9 @@
-def prime?(number)# Add  code here!
-  if number < 0 || number == 0 || number == 1
+def prime?(num)# Add  code here!
+  if num < 0 || num == 0 || num == 1
     return false
   else
-    (2..number-1)number.all? do |number|
-      number % !number == 1
+    (2..num-1)num.all? do |num|
+      num % !num != 1
     return true
   end
 end
